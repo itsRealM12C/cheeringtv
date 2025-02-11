@@ -1,0 +1,22 @@
+{
+	"class": {
+	"hidden" : true
+	},
+	"id": "com.webos.app.cheeringtv",
+	"version": "1.0.13",
+	"vendor": "LGE",
+	"type": "web",
+	"main": "index.html",
+	"title": "Cheering Mode",
+	"largeIcon": "arenaWhite.png" ,
+	"icon": "arenaWhite.png",
+	"iconColor": "#ffffff",
+	"bgColor": "#ffffff",
+	"splashBackground": "cheeringmode_splash.png",
+	"uiRevision": 2,
+	"visible": false,
+	"disableBackHistoryAPI": true,
+	"trustLevel":"default",
+	"resolution":"1280x720",
+        "voiceControl":"auto"
+}

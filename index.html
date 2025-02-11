@@ -1,0 +1,79 @@
+<html>
+<head>
+	<title>LG Cheering Mode</title>
+</head>
+<meta http-equiv="Content-Type" content="text/html;  charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<link rel="stylesheet" type="text/css" href="assets/css/animation.css">
+<link rel="stylesheet" type="text/css" href="assets/css/webOS.css">
+
+<script type="text/javascript" src=" assets/js/lib/jquery-3.0.0.min.js"></script>
+<script type="text/javascript" src="assets/js/soundEffect.js"></script>
+<script type="text/javascript" src=" assets/js/lib/webOS.js"></script>
+<script type="text/javascript" src=" assets/js/lib/keycode.js"></script>
+<script type="text/javascript" src=" assets/js/main.js"></script>
+<script type="text/javascript" src="assets/strings/strings.json"></script>
+
+<body  onload = "initPage();">
+	<div id="wrapper" class="AppWraper">
+		<div id="fireworks" class="fire-animation"></div>
+		<div id="fireZero" class="fire-animation"></div>
+		<div id="fireOne" class="fire-animation"></div>
+		<div id="fireTwo" class="fire-animation"></div>
+		<div id="fireThree" class="fire-animation"></div>
+
+		<div id="chicken" class="animation"></div>
+		<div id="drum" class="drum animation"></div>
+		<div id="drum1" class="drum animation"></div>
+		<div id="jeer" class="animation"></div>
+		<div id="disappointment" class="animation"></div>
+		<div id="clap" class="clap animation"></div>
+		<div id="clap1" class="clap animation"></div>
+		<div id="cheer" class="animation"></div>
+
+	</div>
+	<footer style="opacity: 0;">
+		<div class="footerMenu">
+			<div class="menu_left">
+				<!--<ul>
+					<li class="btn" id="btn_red"><span class="icon icon-red"></span></li>
+					<li class="btn" id="btn_green"><span class="icon icon-green"></span></li>
+					<li class="btn" id="btn_yellow"><span class="icon icon-yellow"></span></li>
+					<li class="btn" id="btn_blue"><span class="icon icon-blue"></span></li>
+				</ul>
+				<ul>
+					<li class="btn" id="btn_up"><span class="icon icon-up"></span></li>
+					<li class="btn" id="btn_down"><span class="icon icon-down"></span></li>
+					<li class="btn" id="btn_left"><span class="icon icon-left"></span></li>
+					<li class="btn" id="btn_right"><span class="icon icon-right"></span></li>
+				</ul>-->
+				<ul>
+					<li class="btn" id="btn_red"><span class="icon icon-red"></span></li>
+					<li class="btn" id="btn_green"><span class="icon icon-green"></span></li>
+					<li class="btn" id="btn_yellow"><span class="icon icon-yellow"></span></li>
+					<!--<li class="btn" id="btn_blue"><span class="icon icon-blue"></span></li>-->
+				</ul>
+				<ul>
+					<li class="btn" id="btn_up"><span class="icon icon-up"></span></li>
+					<li class="btn" id="btn_left"><span class="icon icon-left"></span></li>
+					<li class="btn" id="btn_right"><span class="icon icon-right"></span></li> 
+					<li class="btn" id="btn_down"><span class="icon icon-down"></span></li>
+				</ul>
+
+			</div>
+			<div class="menu_right">
+				<ul>
+					<li class="button" id="btn_hide"><span class="icon icon-back"></span></li>
+					<li class="button" id="btn_finish"><span class="icon icon-exit"></span></li>
+				</ul>
+			</div>
+		</div>
+		<div class="footer-hide">
+			<div class="menu_left_hide"></div>
+			<div class="menu_right_hide">
+				<ul><li class="button" id="btn_show"><span class="icon icon-back"></span></li></ul>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
